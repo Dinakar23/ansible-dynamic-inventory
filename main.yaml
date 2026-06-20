@@ -2,5 +2,6 @@
   hosts: frontend
   become : yes
 
-  tasks : ping
-  ping :
+  tasks : 
+  - name : ping
+    ping :
